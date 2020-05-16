@@ -1,5 +1,5 @@
 {
-  "name": "@amn/mongoose",
+  "name": "amn-mongoose",
   "version": "0.0.1",
   "description": "A wrapper over mongoose to allow multiple connections to various databases",
   "main": "index.js",
@@ -25,8 +25,8 @@
     "url": "https://github.com/mze-runner/amn-mongoose/issues"
   },
   "homepage": "https://github.com/mze-runner/amn-mongoose#readme",
-  "dependencies": {
-    "debug": "^4.1.1",
-    "mongoose": "^5.9.14"
+  "peerDependencies": {
+    "mongoose": "^5.0.0",
+    "debug": "^4.1.1"
   }
 }

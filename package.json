@@ -1,0 +1,32 @@
+{
+  "name": "@amn/mongoose",
+  "version": "0.0.1",
+  "description": "A wrapper over mongoose to allow multiple connections to various databases",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mze-runner/amn-mongoose.git"
+  },
+  "keywords": [
+    "nodejs",
+    "mongodb",
+    "mongoose",
+    "amn"
+  ],
+  "author": "mzerunner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mze-runner/amn-mongoose/issues"
+  },
+  "homepage": "https://github.com/mze-runner/amn-mongoose#readme",
+  "dependencies": {
+    "debug": "^4.1.1",
+    "mongoose": "^5.9.14"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "name": "amn-mongoose",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A wrapper over mongoose to allow multiple connections to various databases",
   "main": "index.js",
   "directories": {
